@@ -5,8 +5,6 @@ import argparse
 from datasets import Dataset, load_from_disk
 
 
-#/Users/cvlachos/PycharmProjects/dstc11-track2-intent-induction-main/dstc11
-
 def normalize_dsct(glob_path, save=True, save_path=None):
   def get_turns(dialog):
 

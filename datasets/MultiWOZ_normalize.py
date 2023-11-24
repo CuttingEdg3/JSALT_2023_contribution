@@ -5,8 +5,6 @@ import pandas as pd
 from datasets import Dataset, load_from_disk
 
 
-#/Users/cvlachos/PycharmProjects/MultiWOZ_data/multiwoz-master/data/MultiWOZ_2.2
-
 def normalize_multiwoz(glob_path, save=False, save_path=None):
     """Normalizes MultiWOZ 2.2 into a Pandas DataFrame with the unified format."""
     def get_actions(dialog, dialog_acts):
